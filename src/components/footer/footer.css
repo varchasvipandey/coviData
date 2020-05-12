@@ -1,0 +1,58 @@
+.footer {
+  height: 40vh;
+  background-color: #252f3e;
+}
+
+.footer-icon {
+  height: 10rem;
+  padding: 2rem;
+}
+
+.footer__text {
+  color: #eee;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.footer__text-heading {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.footer__text-sub-heading {
+  text-transform: capitalize;
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+.footer__text-sub-heading span {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #5ac4c3;
+}
+
+.creadits {
+  color: #eee;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.creadits span {
+  display: block;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+/* MEDIA QUERIES */
+
+/* 900-1200px */
+@media (max-width: 75em) {
+}
+/* 600-900px */
+@media (max-width: 56.25em) {
+}
+/* 0-600px */
+@media (max-width: 37.5em) {
+  .footer {
+    height: 30vh;
+  }
+}

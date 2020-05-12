@@ -1,0 +1,81 @@
+.todaysData__data {
+  padding: 3rem;
+  border: 1px solid white;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background: #252f3e;
+  color: white;
+  box-shadow: 0 2rem 2rem rgb(17, 17, 17, 0.4);
+  transition: all 0.2s;
+}
+.todaysData__data:hover {
+  box-shadow: 0 2rem 3rem rgb(17, 17, 17, 0.8);
+}
+
+.todaysData__data-date {
+  text-align: center;
+  line-height: 4rem;
+  padding: 2rem;
+}
+.todaysData__data-date span {
+  display: block;
+}
+.todaysData__data-date span.todaysData__data-date--day {
+  font-size: 5rem;
+  font-weight: 600;
+}
+.todaysData__data-date span.todaysData__data-date--full {
+  text-transform: none;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.chart-title {
+  color: #252f3e;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.chart-text {
+  font-size: 2rem;
+  color: #252f3e;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem;
+}
+/* UTILS */
+.center {
+  text-align: center;
+}
+.tag {
+  display: block;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.value {
+  display: block;
+  font-weight: 700;
+  font-size: 4rem;
+  transition: all 0.2s;
+}
+.value:hover {
+  transform: translateY(-1rem);
+}
+
+/* MEDIA QUERIES */
+
+/* 900-1200px */
+@media (max-width: 75em) {
+}
+/* 600-900px */
+@media (max-width: 56.25em) {
+}
+/* 0-600px */
+@media (max-width: 37.5em) {
+  .todaysData__data-date {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+  }
+}

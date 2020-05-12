@@ -1,0 +1,41 @@
+.navigator {
+  display: inline;
+  padding: 2rem;
+  position: fixed;
+  z-index: 1;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.navigator__link {
+  color: #eee;
+  font-size: 6rem;
+  transition: all 0.2s;
+  animation-name: popup;
+  animation-duration: 2s;
+}
+
+.navigator__link:hover {
+  color: #5ac4c3;
+}
+
+@keyframes popup {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* MEDIA QUERIES */
+
+/* 900-1200px */
+@media (max-width: 75em) {
+}
+/* 600-900px */
+@media (max-width: 56.25em) {
+}
+/* 0-600px */
+@media (max-width: 37.5em) {
+}

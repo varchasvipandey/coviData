@@ -1,0 +1,31 @@
+.completeData__table--headings {
+  background-color: #252f3e;
+}
+
+.completeData__table--heading {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.completeData__table--data {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.status-bar {
+  padding: 2rem 0;
+}
+
+/* COLORS FOR TABLE */
+.healing {
+  background-color: rgb(7, 150, 54);
+}
+.bad {
+  background-color: rgb(206, 144, 30);
+}
+.critical {
+  background-color: rgb(221, 44, 21);
+}
+.fighting {
+  background-color: rgb(3, 101, 192);
+}
